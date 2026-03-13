@@ -1,0 +1,48 @@
+# --- Python (Backend) ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.lib/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Node / React (Frontend) ---
+node_modules/
+/frontend/dist/
+/frontend/build/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Environment Variables (CRITICAL) ---
+.env
+backend/.env
+frontend/.env
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.project
+.pydevproject
+.settings/
+Thumbs.db
+desktop.ini
