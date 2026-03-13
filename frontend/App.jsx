@@ -2,7 +2,8 @@ import { useState, useEffect } from "react";
 import { Country, State, City } from "country-state-city";
 import axios from "axios";
 
-const API = "http://localhost:8000/api";
+// const API = "http://localhost:8000/api";
+const API = "https://city-state-country.onrender.com/api";
 
 // ── Minimal inline styles (no MUI needed) ─────────────────────────────────────
 const s = {
